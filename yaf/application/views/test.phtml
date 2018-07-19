@@ -1,0 +1,15 @@
+<?php echo $data1;?>
+<hr />
+
+<if condition="$data2['sex'] eq '男'">
+    强大
+    <else />
+    相对弱小需要保护
+</if>
+
+<hr />
+<?php foreach($data3 as $t):?>
+    <?=$t['name']; ?>
+<?php endforeach;?>
+</body>
+</html>
